@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		982E6D091DEEC4DE00A2E747 /* スクリーンショット 2016-11-30 17.25.56.png in Resources */ = {isa = PBXBuildFile; fileRef = 982E6D081DEEC4DE00A2E747 /* スクリーンショット 2016-11-30 17.25.56.png */; };
+		982E6D0B1DEEC52B00A2E747 /* スクリーンショット 2016-11-30 17.27.56.png in Resources */ = {isa = PBXBuildFile; fileRef = 982E6D0A1DEEC52B00A2E747 /* スクリーンショット 2016-11-30 17.27.56.png */; };
+		986F4AAF1DF27A0500E49171 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986F4AAE1DF27A0500E49171 /* ResultViewController.swift */; };
 		98E42AC41DEDBCB10072EBFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E42AC31DEDBCB10072EBFE /* AppDelegate.swift */; };
 		98E42AC61DEDBCB10072EBFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E42AC51DEDBCB10072EBFE /* ViewController.swift */; };
 		98E42AC91DEDBCB10072EBFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98E42AC71DEDBCB10072EBFE /* Main.storyboard */; };
 		98E42ACB1DEDBCB10072EBFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98E42ACA1DEDBCB10072EBFE /* Assets.xcassets */; };
 		98E42ACE1DEDBCB10072EBFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98E42ACC1DEDBCB10072EBFE /* LaunchScreen.storyboard */; };
+		98E42AD81DEDC4110072EBFE /* 川を流れる魂.png in Resources */ = {isa = PBXBuildFile; fileRef = 98E42AD71DEDC4110072EBFE /* 川を流れる魂.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		982E6D081DEEC4DE00A2E747 /* スクリーンショット 2016-11-30 17.25.56.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スクリーンショット 2016-11-30 17.25.56.png"; sourceTree = "<group>"; };
+		982E6D0A1DEEC52B00A2E747 /* スクリーンショット 2016-11-30 17.27.56.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スクリーンショット 2016-11-30 17.27.56.png"; sourceTree = "<group>"; };
+		986F4AAE1DF27A0500E49171 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		98E42AC01DEDBCB10072EBFE /* SlideshowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideshowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98E42AC31DEDBCB10072EBFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98E42AC51DEDBCB10072EBFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +29,7 @@
 		98E42ACA1DEDBCB10072EBFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98E42ACD1DEDBCB10072EBFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98E42ACF1DEDBCB10072EBFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98E42AD71DEDC4110072EBFE /* 川を流れる魂.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "川を流れる魂.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +64,11 @@
 			children = (
 				98E42AC31DEDBCB10072EBFE /* AppDelegate.swift */,
 				98E42AC51DEDBCB10072EBFE /* ViewController.swift */,
+				98E42AD71DEDC4110072EBFE /* 川を流れる魂.png */,
+				982E6D081DEEC4DE00A2E747 /* スクリーンショット 2016-11-30 17.25.56.png */,
+				982E6D0A1DEEC52B00A2E747 /* スクリーンショット 2016-11-30 17.27.56.png */,
 				98E42AC71DEDBCB10072EBFE /* Main.storyboard */,
+				986F4AAE1DF27A0500E49171 /* ResultViewController.swift */,
 				98E42ACA1DEDBCB10072EBFE /* Assets.xcassets */,
 				98E42ACC1DEDBCB10072EBFE /* LaunchScreen.storyboard */,
 				98E42ACF1DEDBCB10072EBFE /* Info.plist */,
@@ -125,6 +137,9 @@
 			files = (
 				98E42ACE1DEDBCB10072EBFE /* LaunchScreen.storyboard in Resources */,
 				98E42ACB1DEDBCB10072EBFE /* Assets.xcassets in Resources */,
+				98E42AD81DEDC4110072EBFE /* 川を流れる魂.png in Resources */,
+				982E6D091DEEC4DE00A2E747 /* スクリーンショット 2016-11-30 17.25.56.png in Resources */,
+				982E6D0B1DEEC52B00A2E747 /* スクリーンショット 2016-11-30 17.27.56.png in Resources */,
 				98E42AC91DEDBCB10072EBFE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +153,7 @@
 			files = (
 				98E42AC61DEDBCB10072EBFE /* ViewController.swift in Sources */,
 				98E42AC41DEDBCB10072EBFE /* AppDelegate.swift in Sources */,
+				986F4AAF1DF27A0500E49171 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +313,7 @@
 				98E42AD41DEDBCB10072EBFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
