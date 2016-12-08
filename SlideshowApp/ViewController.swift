@@ -72,6 +72,8 @@ class ViewController: UIViewController {
         self.performSegue(withIdentifier: "toResultViewController", sender: nil)
         timer.invalidate()
         (Start as AnyObject).setTitle("Start Timer", for: UIControlState.normal)
+        Backbotan2.isEnabled = true
+        Nextbotan2.isEnabled = true
     }
     
     //ボタン挿入
