@@ -14,14 +14,18 @@ class ViewController: UIViewController {
     @IBOutlet weak var imageView: UIImageView!
     
     
+    @IBOutlet weak var Backbotan2: UIButton!
+    @IBOutlet weak var Nextbotan2: UIButton!
     @IBAction func Backbotan(_ sender: AnyObject) {
         dispImageNo -= 1
         displayImage()
     }
+    
     @IBAction func Nextbotan(_ sender: AnyObject) {
         dispImageNo += 1
         displayImage()
     }
+    
     
     var dispImageNo = 0
     func displayImage() {
@@ -62,12 +66,12 @@ class ViewController: UIViewController {
         let tap = UITapGestureRecognizer(target: self, action: #selector(ViewController.viewTap(sender:)))
         
         // viewにタップを登録
-        self.view.addGestureRecognizer(tap)
+        self.imageView.addGestureRecognizer(tap)
     }
     func viewTap(sender: UITapGestureRecognizer){
         self.performSegue(withIdentifier: "toResultViewController", sender: nil)
         timer.invalidate()
-        
+        (Start as AnyObject).setTitle("Start Timer", for: UIControlState.normal)
     }
     
     //ボタン挿入
@@ -77,24 +81,31 @@ class ViewController: UIViewController {
         Start.setTitle("テスト", for: .normal)
         //ボタンが押された時に呼ばれるメソッド.
         //func onMyButtonClick(sender : UIButton){
+        
+        //timerが動いてるなら.
+        if timer.isValid == true {
             
-            //timerが動いてるなら.
-            if timer.isValid == true {
-                
-                //timerを破棄する.
-                timer.invalidate()
-                
-                //ボタンのタイトル変更.
-                (sender as AnyObject).setTitle("Start Timer", for: UIControlState.normal)
-            }
-            else{
-                
-                //timerを生成する.
-                timer = Timer.scheduledTimer(timeInterval: 2.0, target: self, selector: #selector(ViewController.onTimer), userInfo: nil, repeats: true)
-                
-                //ボタンのタイトル変更.
-                (sender as AnyObject).setTitle("Stop Timer", for: UIControlState.normal)
-            }
+            //timerを破棄する.
+            timer.invalidate()
+            
+            //ボタンのタイトル変更.
+            (sender as AnyObject).setTitle("Start Timer", for: UIControlState.normal)
+        }
+        else{
+            
+            //timerを生成する.
+            timer = Timer.scheduledTimer(timeInterval: 2.0, target: self, selector: #selector(ViewController.onTimer), userInfo: nil, repeats: true)
+            
+            //ボタンのタイトル変更.
+            (sender as AnyObject).setTitle("Stop Timer", for: UIControlState.normal)
+        }
+        if timer.isValid == true {
+            Backbotan2.isEnabled = false
+            Nextbotan2.isEnabled = false
+        }else{
+            Backbotan2.isEnabled = true
+            Nextbotan2.isEnabled = true
+        }
     }
     
     func onTimer(timer: Timer) {

@@ -67,6 +67,8 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="Backbotan2" destination="mnz-bB-rR5" id="U6c-Mk-n7k"/>
+                        <outlet property="Nextbotan2" destination="DnR-FY-NNH" id="xVw-Gw-FUq"/>
                         <outlet property="Start" destination="43H-5H-Si2" id="VOd-DE-J0k"/>
                         <outlet property="imageView" destination="qvy-52-EDx" id="Ean-UE-lwY"/>
                         <segue destination="2Wt-tl-uxk" kind="show" identifier="toResultViewController" id="qRp-xw-AR2"/>
@@ -116,7 +118,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zLs-2L-jcq" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="lYS-q3-EyE" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="744.79999999999995" y="39.130434782608695"/>
+            <point key="canvasLocation" x="774" y="38"/>
         </scene>
     </scenes>
 </document>
